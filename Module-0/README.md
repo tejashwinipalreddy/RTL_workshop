@@ -75,7 +75,7 @@ The final output is a gate-level representation of the digital circuit.
 <img width="880" height="556" alt="image" src="https://github.com/user-attachments/assets/7bdae092-a626-4ef9-8d14-28438b1daa7f" />
 
 
-4.LINUX DEVELOPMENT:
+##4.LINUX DEVELOPMENT:
 
 Linux provides a powerful command-line environment for digital design and semiconductor tool flows.
 
@@ -103,7 +103,7 @@ Understanding Linux commands is important because many EDA tools are executed th
 
 
 
-5. Git and Version Control
+##5. Git and Version Control
 
 Git is a distributed version control system used to track changes in source-code files.
 
@@ -124,7 +124,7 @@ git log
 git branch
 git checkout
 
-6.VERILOG HDL 
+##6.VERILOG HDL 
 
 Verilog HDL (Hardware Description Language) is used to describe digital hardware.
 
@@ -154,13 +154,13 @@ assign y = a & b;
 
 endmodule
 
-7.What is Icarus Verilog?
+##7.What is Icarus Verilog?
 Icarus Verilog is a free and open-source Verilog compiler and simulator. It allows users to compile Verilog source files, execute simulations, and generate waveform files for analyzing the behavior of digital circuits.
 
 Basic Simulation Flow
 <img width="1854" height="956" alt="image" src="https://github.com/user-attachments/assets/aca564fb-b5a3-48e8-a497-0bde2c4a526f" />
 
-8. RTL Simulation
+##8. RTL Simulation
 
 Before synthesizing an RTL design, its functionality must be verified through simulation.
 
@@ -177,7 +177,7 @@ Simulation Output
      ↓
 Waveform Analysis
 
-10. Tools Used
+##9. Tools Used
 
 The workshop introduces the following tools and technologies:
 
@@ -191,3 +191,9 @@ GitHub
 SKY130 Standard Cell Library
 
 Each tool has a specific role in the RTL-to-GDS design flow.
+
+## 👤 Author
+
+**Name:** palreddy sai tejashwini
+**College:** Anurag University
+**Branch:** Electronics and Communication Engineering (ECE)
