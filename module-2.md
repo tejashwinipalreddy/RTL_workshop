@@ -95,6 +95,6 @@ RTL_Workshop/
 
 ## 👤 Author
 
-**Name:** Arpitha Garrepalli
+**Name:** palreddy sai tejashwini
 **College:** Anurag University
 **Branch:** Electronics and Communication Engineering (ECE)
