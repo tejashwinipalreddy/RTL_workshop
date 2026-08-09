@@ -102,40 +102,53 @@ The waveform is compared with the expected truth table or functional behavior of
 
 ---
 
-## 7. 2:1 Multiplexer Design
+## 7. 2:1## 7. Latch Design
 
-A 2:1 Multiplexer is implemented as a practical RTL design example.
+A latch is a level-sensitive sequential circuit used to store one bit of information.
 
-A multiplexer selects one of two input signals based on a select signal.
+Unlike a flip-flop, which is edge-triggered, a latch is sensitive to the level of its enable signal.
+
+In this module, a basic latch is designed using Verilog HDL and its behavior is verified through simulation.
 
 ### Inputs
 
-* `I0` – Input 0
-* `I1` – Input 1
-* `S` – Select signal
+- `D` – Data input
+- `EN` – Enable signal
 
 ### Output
 
-* `Y` – Selected output
+- `Q` – Stored output
 
 ### Functional Operation
 
-When `S = 0`:
+When `EN = 1`:
+Q = D
+The latch is disabled and retains its previous value.
+Latch Behavior
+        ┌─────────────┐
+D ─────►│             │
+        │    Latch    │────► Q
+EN ────►│             │
+        └─────────────┘
+      
+always @ (D or EN)
+begin
+    if (EN)
+        Q = D;
+end
+When the if condition is false, no new value is assigned to Q, causing the synthesis tool to infer storage.
 
-```text
-Y = I0
-```
+Verification
 
-When `S = 1`:
+The latch design is verified using a testbench by applying different combinations of:
 
-```text
-Y = I1
-```
+Data input
+Enable signal
 
-The circuit is implemented using Verilog and verified using a testbench.
+The simulation waveform is analyzed to confirm that:
 
----
-
+Q follows D when EN = 1
+Q retains its previous value when EN = 0
 ## 8. RTL Synthesis using Yosys
 
 Yosys is used to synthesize the Verilog RTL design.
