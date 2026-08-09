@@ -85,15 +85,15 @@ Executing synthesis tools
 Managing project files
 Important Linux Commands
 Command	Purpose
-pwd	Displays the current directory
-ls	Lists files and directories
-cd	Changes the directory
-mkdir	Creates a directory
-touch	Creates a file
-cp	Copies files
-mv	Moves or renames files
-rm	Removes files
-cat	Displays file contents
+                                            pwd	                       Displays the current directory
+                                            ls	                       Lists files and directories
+                                            cd                  	Changes the directory
+                                           mkdir	               Creates a directory
+                                           touch	                      Creates a file
+                                            cp	                         Copies files
+                                            mv	                      Moves or renames files
+                                            rm	                      Removes files
+                                            cat                 	Displays file contents
 Understanding Linux commands is important because many EDA tools are executed through the Linux terminal.
 
 
