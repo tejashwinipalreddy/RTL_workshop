@@ -1,4 +1,4 @@
-# Module-0 – RTL Design and Synthesis Workshop
+# Module-0 – RTL Design and Synthesis Workshop 
 
 ## 1. Introduction
 
@@ -9,6 +9,9 @@ The objective is to understand how a digital circuit is described using Hardware
 This module also introduces the Linux environment, Git, GitHub, and the basic tools required for RTL design and synthesis.
 
 ---
+
+lab installation :<img width="1279" height="761" alt="WhatsApp Image 2026-08-09 at 17 57 27" src="https://github.com/user-attachments/assets/4fc23964-c599-4b33-9622-2dc056d8c2df" />
+
 
 ## 2. What is RTL Design?
 
