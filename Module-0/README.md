@@ -72,6 +72,8 @@ The synthesized logic is mapped to cells available in a standard-cell library.
 Gate-Level Netlist
 
 The final output is a gate-level representation of the digital circuit.
+<img width="880" height="556" alt="image" src="https://github.com/user-attachments/assets/7bdae092-a626-4ef9-8d14-28438b1daa7f" />
+
 
 4.LINUX DEVELOPMENT:
 
