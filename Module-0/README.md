@@ -29,8 +29,6 @@ Verilog HDL is commonly used to describe RTL designs.
 ## 3. RTL Design Flow
 
 The basic RTL design flow consists of several stages:
-
-```text
 Design Specification
         ↓
 RTL Coding
@@ -85,3 +83,16 @@ Compiling Verilog programs
 Running simulations
 Executing synthesis tools
 Managing project files
+Important Linux Commands
+Command	Purpose
+pwd	Displays the current directory
+ls	Lists files and directories
+cd	Changes the directory
+mkdir	Creates a directory
+touch	Creates a file
+cp	Copies files
+mv	Moves or renames files
+rm	Removes files
+cat	Displays file contents
+
+Understanding Linux commands is important because many EDA tools are executed through the Linux terminal.
