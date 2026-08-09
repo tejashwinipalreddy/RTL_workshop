@@ -73,7 +73,7 @@ Gate-Level Netlist
 
 The final output is a gate-level representation of the digital circuit.
 
-4. Linux Environment
+4.LINUX DEVELOPMENT:
 
 Linux provides a powerful command-line environment for digital design and semiconductor tool flows.
 
@@ -122,24 +122,7 @@ git log
 git branch
 git checkout
 
-
-6. GitHub
-
-GitHub is a platform used to host Git repositories online.
-
-A GitHub repository can contain:
-
-RTL source code
-Testbenches
-Simulation results
-Synthesis results
-Waveform screenshots
-Documentation
-Project reports
-
-This repository is being used to document my RTL Design and Synthesis learning journey and practical work.
-
-7. Verilog HDL
+6.VERILOG HDL 
 
 Verilog HDL (Hardware Description Language) is used to describe digital hardware.
 
@@ -168,6 +151,12 @@ module example (
 assign y = a & b;
 
 endmodule
+
+7.What is Icarus Verilog?
+Icarus Verilog is a free and open-source Verilog compiler and simulator. It allows users to compile Verilog source files, execute simulations, and generate waveform files for analyzing the behavior of digital circuits.
+
+Basic Simulation Flow
+<img width="1854" height="956" alt="image" src="https://github.com/user-attachments/assets/aca564fb-b5a3-48e8-a497-0bde2c4a526f" />
 
 8. RTL Simulation
 
