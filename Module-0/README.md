@@ -94,5 +94,106 @@ cp	Copies files
 mv	Moves or renames files
 rm	Removes files
 cat	Displays file contents
-
 Understanding Linux commands is important because many EDA tools are executed through the Linux terminal.
+
+
+
+5. Git and Version Control
+
+Git is a distributed version control system used to track changes in source-code files.
+
+In RTL design projects, Git can be used to maintain different versions of:
+
+Verilog source files
+Testbenches
+Simulation files
+Synthesis scripts
+Documentation
+
+Git allows designers to track modifications and restore previous versions when required.
+git init
+git status
+git add
+git commit
+git log
+git branch
+git checkout
+
+
+6. GitHub
+
+GitHub is a platform used to host Git repositories online.
+
+A GitHub repository can contain:
+
+RTL source code
+Testbenches
+Simulation results
+Synthesis results
+Waveform screenshots
+Documentation
+Project reports
+
+This repository is being used to document my RTL Design and Synthesis learning journey and practical work.
+
+7. Verilog HDL
+
+Verilog HDL (Hardware Description Language) is used to describe digital hardware.
+
+Unlike conventional programming languages, Verilog describes hardware behavior and structure.
+
+Basic Verilog concepts include:
+
+Modules
+Ports
+Inputs and outputs
+Wires
+Registers
+Continuous assignments
+Procedural blocks
+always blocks
+Conditional statements
+Testbenches
+
+A simple Verilog module follows the structure:
+module example (
+    input  a,
+    input  b,
+    output y
+);
+
+assign y = a & b;
+
+endmodule
+
+8. RTL Simulation
+
+Before synthesizing an RTL design, its functionality must be verified through simulation.
+
+A testbench is created to provide different input combinations to the Design Under Test (DUT).
+
+The simulation process can be represented as:
+Verilog RTL
+     ↓
+Testbench
+     ↓
+Simulator
+     ↓
+Simulation Output
+     ↓
+Waveform Analysis
+
+10. Tools Used
+
+The workshop introduces the following tools and technologies:
+
+Linux
+Verilog HDL
+Icarus Verilog
+GTKWave
+Yosys
+Git
+GitHub
+SKY130 Standard Cell Library
+
+Each tool has a specific role in the RTL-to-GDS design flow.
