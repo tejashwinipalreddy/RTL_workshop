@@ -61,8 +61,9 @@ The verification process includes:
 * Monitoring outputs
 * Generating simulation waveforms
 * Checking whether the output matches the expected behavior
+<img width="1812" height="978" alt="image" src="https://github.com/user-attachments/assets/485aeb5d-d6dd-41be-8c29-075428182613" />
 
----
+
 
 ## 5. RTL Simulation using Icarus Verilog
 
@@ -149,6 +150,8 @@ The simulation waveform is analyzed to confirm that:
 
 Q follows D when EN = 1
 Q retains its previous value when EN = 0
+<img width="1600" height="851" alt="image" src="https://github.com/user-attachments/assets/bbf57683-06c7-4469-830c-619e6984eebf" />
+
 ## 8. RTL Synthesis using Yosys
 
 Yosys is used to synthesize the Verilog RTL design.
@@ -196,8 +199,9 @@ The practical exercise includes:
 The simulation results and waveform screenshots are included in this module.
 
 The results demonstrate that the RTL design produces the expected outputs for the applied input combinations.
+LATCH OUTPUT:
+<img width="858" height="627" alt="image" src="https://github.com/user-attachments/assets/b2c6cd30-e366-4d5b-9768-2e32c81425a3" />
 
----
 
 ## 12. Tools Used
 
