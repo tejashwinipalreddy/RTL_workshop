@@ -1,18 +1,11 @@
 # 🔧 Module 2 — Timing Libraries, Synthesis Approaches & Flip-Flop Coding
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-Verilog-9cf?style=for-the-badge" alt="Verilog">
-  <img src="https://img.shields.io/badge/Tool-Icarus%20Verilog-2f6fed?style=for-the-badge" alt="Icarus Verilog">
-  <img src="https://img.shields.io/badge/Tool-GTKWave-e67e22?style=for-the-badge" alt="GTKWave">
-  <img src="https://img.shields.io/badge/Tool-Yosys-27ae60?style=for-the-badge" alt="Yosys">
-  <img src="https://img.shields.io/badge/PDK-SKY130-red?style=for-the-badge" alt="SKY130">
-</p>
 
 <p align="center"><em>Part of the <a href="https://github.com/ArpithaGarrepalli/RTL_Workshop">RTL Workshop</a> series</em></p>
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 > Understand **timing libraries** and the **SKY130 PDK**, explore **hierarchical vs. flattened synthesis**, study different **flip-flop coding styles**, walk through the complete **RTL simulation and synthesis flow**, and observe how **Yosys optimizes RTL** into efficient gate-level hardware.
 
@@ -38,8 +31,6 @@
 
 ---
 
-## 1️⃣ Timing Libraries
-
 ### 📘 1.1 SKY130 PDK
 
 The **SKY130 PDK** contains the technology information and standard-cell libraries required to design and synthesize digital circuits using **130 nm CMOS technology**.
@@ -58,7 +49,7 @@ sky130_fd_sc_hd__tt_025C_1v80.lib
 | 🌡️ **025C** | Temperature of 25°C |
 | ⚡ **1v80** | Supply voltage of 1.8 V |
 
-### 📂 1.3 Exploring the `.lib` File
+###  1.3 Exploring the `.lib` File
 
 The `.lib` file contains information about standard cells — including their timing, power characteristics, and operating conditions — used during synthesis and technology mapping.
 
@@ -72,7 +63,6 @@ The `.lib` file contains information about standard cells — including their ti
 
 ---
 
-## 2️⃣ Hierarchical and Flattened Synthesis
 
 ### 🗂️ 2.1 Hierarchical Synthesis
 
@@ -111,11 +101,11 @@ flatten
 
 ---
 
-## 3️⃣ Flip-Flop Coding Styles
+## 3️ Flip-Flop Coding Styles
 
 Flip-flops are sequential logic elements used to store binary information. Three different D flip-flop coding styles were studied.
 
-### 🔴 3.1 Asynchronous Reset D Flip-Flop
+###  3.1 Asynchronous Reset D Flip-Flop
 
 An asynchronous reset changes the output **immediately** when the reset signal becomes active, without waiting for the clock edge.
 
@@ -365,8 +355,8 @@ gvim mult8_net.v
 Module 2 provided practical experience with timing libraries, synthesis techniques, flip-flop coding styles, RTL simulation, waveform analysis, and technology mapping — building a clear understanding of how an RTL design is converted into an optimized gate-level implementation using standard-cell libraries.
 
 ---
-
 ## 👤 Author
 
-**Arpitha Garrepalli**
-📎 [github.com/ArpithaGarrepalli/RTL_Workshop](https://github.com/ArpithaGarrepalli/RTL_Workshop)
+**Name:** palreddy sai tejashwini
+**College:** Anurag University
+**Branch:** Electronics and Communication Engineering (ECE)
