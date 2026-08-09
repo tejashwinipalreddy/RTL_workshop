@@ -44,3 +44,44 @@ Logic Synthesis
 Technology Mapping
         ↓
 Gate-Level Netlist
+Design Specification
+
+The required functionality of the digital circuit is first defined.
+
+RTL Coding
+
+The functionality is converted into Verilog HDL code.
+
+Functional Simulation
+
+The RTL code is simulated using a testbench to verify whether the design behaves as expected.
+
+RTL Verification
+
+Different input combinations and operating conditions are applied to check the correctness of the design.
+
+Logic Synthesis
+
+The verified RTL is converted into a gate-level representation using a synthesis tool.
+
+Technology Mapping
+
+The synthesized logic is mapped to cells available in a standard-cell library.
+
+Gate-Level Netlist
+
+The final output is a gate-level representation of the digital circuit.
+
+4. Linux Environment
+
+Linux provides a powerful command-line environment for digital design and semiconductor tool flows.
+
+During the workshop, Linux commands are used for:
+
+Navigating directories
+Creating and deleting files
+Editing files
+Compiling Verilog programs
+Running simulations
+Executing synthesis tools
+Managing project files
