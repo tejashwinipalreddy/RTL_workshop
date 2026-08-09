@@ -229,3 +229,8 @@ After completing this module, I gained practical understanding of:
 * Technology mapping
 * Gate-level netlist generation
 * Basic digital design flow
+## 👤 Author
+
+**Name:** palreddy sai tejashwini
+**College:** Anurag University
+**Branch:** Electronics and Communication Engineering (ECE)
