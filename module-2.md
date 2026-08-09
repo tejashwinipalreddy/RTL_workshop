@@ -1,13 +1,5 @@
 # 🔧 RTL Design And Synthesis Workshop
 
-<p>
-  <img src="https://img.shields.io/badge/Language-Verilog-9cf" alt="Verilog">
-  <img src="https://img.shields.io/badge/Tool-Icarus%20Verilog-blue" alt="Icarus Verilog">
-  <img src="https://img.shields.io/badge/Tool-GTKWave-orange" alt="GTKWave">
-  <img src="https://img.shields.io/badge/Tool-Yosys-green" alt="Yosys">
-  <img src="https://img.shields.io/badge/PDK-SKY130-red" alt="SKY130">
-</p>
-
 This repository documents my learning journey and hands-on experiments completed during the RTL Design Workshop. It contains module-wise documentation, practical exercises, simulation results, waveform analysis, and Verilog RTL design implementations.
 
 ---
