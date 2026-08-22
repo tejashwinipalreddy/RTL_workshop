@@ -54,6 +54,9 @@ gtkwave ternary_operator_mux.vcd
 ```
 
 **Evidence:** Output tracks the selected input continuously; no gaps, no held states.
+
+<img width="2119" height="1077" alt="image" src="https://github.com/user-attachments/assets/90364488-072f-4fcd-bb61-00ae2bfc3b3d" />
+
 **Verdict:** Clean. Filed as the module's reference behavior.
 
 ---
@@ -71,6 +74,8 @@ synth -top mux_generate
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 ```
+
+<img width="2124" height="1175" alt="image" src="https://github.com/user-attachments/assets/e81fdc83-df72-475e-824b-638252691514" />
 
 
 
@@ -92,6 +97,7 @@ gtkwave mux_generate.vcd
 
 
 **Evidence:** Correct output for every select/input combination tested.
+
 **Verdict:** Clean. Baseline holds under expanded scrutiny.
 
 ---
@@ -106,6 +112,8 @@ A second multiplexer, written with incomplete assignments inside its `always` bl
 iverilog -o bad_mux bad_mux.v tb_bad_mux.v
 gtkwave bad_mux.vcd
 ```
+
+<img width="2125" height="1196" alt="image" src="https://github.com/user-attachments/assets/6e63e509-d22a-4315-861f-10a7efbece28" />
 
 
 
@@ -139,9 +147,13 @@ gtkwave bad_mux.vcd
 Set aside the MUX examples entirely and isolate blocking-assignment behavior on its own.
 
 ```bash
-iverilog -o blocking blocking_caveat.v tb_blocking_caveat.v
+
+iverilog -o blocking blocking_caveat.v tb_blocking_caveat.v<img width="2090" height="1190" alt="image" src="https://github.com/user-attachments/assets/e4c7d41a-8d37-4c2a-8f96-516a4f563ac1" />
+
 gtkwave blocking_caveat.vcd
 ```
+
+<img width="2090" height="1190" alt="image" src="https://github.com/user-attachments/assets/b62ae3bc-4020-4a20-954d-cb36177a5da2" />
 
 **Evidence:** Each `=` statement takes effect the instant it executes; the very next line in the block already sees the new value.
 **Finding:** This immediate, program-order execution is exactly why blocking assignments suit **combinational** logic — and why they're risky in **sequential** logic, where designers usually expect the *old* register value on the right-hand side, not one just written moments earlier in the same block.
@@ -183,6 +195,8 @@ gtkwave blocking_caveat.vcd
 
 **Evidence:** The later statement picks up the freshly-written value from its predecessor, not the value that existed when the block began.
 **Finding:** This confirms, mechanically, why statement order is not a stylistic detail with `=` — it's functionally load-bearing. It's also exactly the trap that produces mismatch when blocking assignments end up inside sequential always blocks by mistake.
+
+<img width="2125" height="1196" alt="image" src="https://github.com/user-attachments/assets/2e43ea2a-1a62-4a04-9672-a1c9f5103f62" />
 
 ---
 
