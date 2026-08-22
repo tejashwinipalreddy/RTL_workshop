@@ -80,6 +80,11 @@ gtkwave incom_if.vcd
 
 **Setup:** Synthesize the identical design and inspect the schematic.
 
+<img width="2235" height="1213" alt="image" src="https://github.com/user-attachments/assets/5633cbbc-327c-4f26-b5d8-01190b8bf0dc" />
+
+
+<img width="2137" height="886" alt="image" src="https://github.com/user-attachments/assets/3a81915d-14a1-42f7-b442-551d21303f0c" />
+
 ```bash
 yosys
 read_verilog incom_if.v
@@ -106,6 +111,8 @@ gtkwave incom_if.vcd
 
 
 
+<img width="2156" height="1028" alt="image" src="https://github.com/user-attachments/assets/4f9191b4-8395-470e-9f8a-748c39ca8450" />
+
 **Detail worth noting:** Every transition of the output aligns exactly with a transition of the driving condition — except when the condition goes false, where the output simply holds. This is the signature pattern to learn to spot at a glance.
 
 ---
@@ -120,6 +127,8 @@ read_verilog incom_if2.v
 synth -top incom_if2
 show
 ```
+
+<img width="2167" height="1108" alt="image" src="https://github.com/user-attachments/assets/553690f0-7f8c-4a70-9516-36e14e83f6d8" />
 
 
 **Finding:** Adding an `else` branch helps *only if every path is actually covered*. Partial coverage — even with an else present — still leaves gaps that resolve into latch storage.
@@ -161,6 +170,8 @@ module comp_case (input i0, input i1, input i2, input [1:0] sel, output reg y);
     end
 endmodule
 ```
+
+<img width="2200" height="1097" alt="image" src="https://github.com/user-attachments/assets/53712ba2-711c-4372-837a-febb0b1a6437" />
 
 
 **Diagnosis:** One `default` line eliminates every gap at once. The synthesized result is pure combinational logic — no latch primitive anywhere in the schematic.
