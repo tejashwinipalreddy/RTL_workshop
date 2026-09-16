@@ -1,6 +1,12 @@
 # PHYSICAL DESIGN Module-1
 ## Complete ASIC Physical Design Flow using OpenLane and and SKY130
-
+<p>
+  <img src="https://img.shields.io/badge/Language-Verilog-9cf" alt="Verilog">
+  <img src="https://img.shields.io/badge/Tool-Icarus%20Verilog-blue" alt="Icarus Verilog">
+  <img src="https://img.shields.io/badge/Tool-GTKWave-orange" alt="GTKWave">
+  <img src="https://img.shields.io/badge/Tool-Yosys-green" alt="Yosys">
+  <img src="https://img.shields.io/badge/PDK-SKY130-red" alt="SKY130">
+</p>
 ## Project Overview
 
 This project presents the implementation of a digital design using the **ASIC PPHYSICAL DESIGNhysical Design flow** with **OpenLane** and the **SkyWater SKY130 PDK**.
