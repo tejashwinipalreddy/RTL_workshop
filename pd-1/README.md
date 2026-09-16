@@ -1,4 +1,4 @@
-# PHYSICAL DESIGN Module-1
+# PD MODULE-1
 ## Complete ASIC Physical Design Flow using OpenLane and and SKY130
 <p>
   <img src="https://img.shields.io/badge/Language-Verilog-9cf" alt="Verilog">
