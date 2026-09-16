@@ -1,4 +1,4 @@
-# 🏗️ Physical Design – Module 2
+# PD MODULE-2
 <p>
   <img src="https://img.shields.io/badge/Language-Verilog-9cf" alt="Verilog">
   <img src="https://img.shields.io/badge/Tool-Icarus%20Verilog-blue" alt="Icarus Verilog">
